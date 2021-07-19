@@ -2,7 +2,7 @@ name: wangzi.uk网站签到
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     - cron: '0 1 * * *'
   watch:
